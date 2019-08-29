@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background: #360836;
+}
+.navbar ul{
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
+.navbar ul li{
+    display: inline-block;
+  
+}
+.navbar ul li a{
+    color: red;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.navbar ul li a.active{
+    color: #fff;
+}
+
+/*Web folk */
+
+.web{
+    width: 100%;
+   height: 500px;
+    background: url(../Images/cover.png);
+    text-align: center;
+    background-size: cover;
+    position: relative;
+}
+.web .folk {
+    margin-bottom: 70px;
+    padding-top: 100px;
+}
+.web .folk h2{
+    margin: 0;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.web .folk p{
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 10px;
+}
+.web .dream p{
+    font-size: 20px;
+    color: #fff;
+}
+.web .bolet{
+    margin-bottom: 2%;
+}
+.web .bolet span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: block;
+    left: 49%;
+    position: relative;
+    background: #fff;
+}
+.web .bolet span:hover{
+    background: #f00;
+}
+.web .work{
+    padding: 15px;
+    width:250px;
+    color: #fff;
+    font-size: 25px;
+    left: 40%;
+    background-color: #f00;
+    position: absolute;
+    bottom: 0;
+}
+.web .work:after{
+    content: "";
+    border-top: 20px solid #f00;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: relative;
+    top: 63px;
+    left: -102px;
+}
+.body{
+    width: 100%;
+    height: 700px;
+    background: #eee;
+    position: relative;
+}
+.body .img{
+    width: 25%;
+    height: 252px;
+    background: url(../Images/image_1.jpg);
+}
+.body .img .over{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+.body .img .over:hover{
+    opacity: 1;
+}
+/****************************contact form****************************/
+.contact{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    background: url(../Images/coverPage2.png);
+    background-size: cover;
+}
+.contact h2{
+    margin: 0;
+    padding-top: 10%;
+    font-size: 50px;
+}
+.contact p{
+    font-size: 25px;
+}
+.contact .form{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+.contact .form h2{
+    color:#df1a5a;;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.contact .form input[type = text],.contact .form textarea{
+    display: block;
+    width: 100%;
+    background: #df1a5a;
+    padding: 8px;
+    margin-top: 15px;
+    color: white;
+    border: 0;
+}
+.contact .form input[type = submit]{
+    float: right;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
